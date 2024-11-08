@@ -1,0 +1,203 @@
+{
+  "intents": [
+    {
+      "intent": "feeling",
+      "patterns":[
+          "I am not feeling well",
+          "I feel sick",
+          "I am sick",
+          "I have a headache",
+          "I'm experiencing nausea",
+          "I have a fever",
+          "I am having fever",
+          "My throat hurts",
+          "I'm feeling tired",
+          "I have a cough",
+          "I have a stomach ache",
+          "My back hurts",
+          "I am experiencing cough",
+          "I am not feeling good",
+          "I am ill",
+          "I feel ill",
+          "My health is bad",
+          "I am not well"
+        ],
+        "responses": [
+            "I'm sorry to hear that. Can you tell me more about your symptoms?",
+            "I'm sorry you're not feeling well. Can you describe your symptoms for me?",
+            "Sorry to hear that. Can you please provide me with more information about your symptoms?",
+            "I'm sorry to hear that. Can you tell me where it hurts and what other symptoms you're experiencing?",
+            "I'm here to help. Can you tell me more about your symptoms?"
+          ]
+    },
+
+    {   "intent":"back_pain",
+        "patterns":[
+            "My back has been hurting for a few days now. It's a dull ache that doesn't seem to go away, no matter what I do.",
+            "I pulled a muscle in my back and it's really painful. It hurts to move and I'm having trouble sleeping.",
+            "I have a sharp pain in my lower back that's been bothering me for a few days now. It's making it hard to do my daily activities.",
+            "I woke up this morning with a really stiff back. I can barely move and it's really uncomfortable.",
+            "I am experiencing back pain",
+            "My back hurts all the time.",
+            "I am having a severe back pain",
+            "My back pain a lot",
+            "I am experiencing back ache",
+            "My back is really hurting.",
+            "I have a sharp pain in my lower back.",
+            "I can't move my back without feeling pain.",
+            "My back feels stiff and sore.",
+            "I think I pulled a muscle in my back.",
+            "I've been having back pain for a few days now.",
+            "I can't stand up straight because of the pain in my back.",
+            "The pain in my back is radiating down my leg.",
+            "My back feels like it's on fire.",
+            "I am having a terrible back pain.",
+            "I am having a back pain"
+        ],
+        "responses":[
+            "Sorry to hear about your back pain. Have you tried some exercises to ease the pain?",
+            "Back pain can be tough to deal with. Have you tried doing some gentle stretching exercises?",
+            "To alleviate your symptoms, have you tried stretching exercises that focus?",
+            "Have you tried some stretching exercises?"
+        ]
+        },
+        {
+            "intent":"Yes_I_have_tried_still_back_pain",
+            "patterns":[
+                "Yes, I have tried exercising but still my back is paining.",
+                "Yes, I did try but pain is still there.",
+                "Yes I have tried",
+                "Yes, I have tried exercising",
+                "Yes, for back pain I have tried exercising.",
+                "Yes, even after exercising, pain is still there",
+                "Yes, the pain still persists",
+                "Yes, I have tried exercising everyday but still it hurts",
+                "Yes, I have tried exercising everyday but pain still persists",
+                "Yes, I have been exercising everyday but still back is paining",
+                "Yes, back still hurts though",
+                "Yes, but my back still pains even after exercising"
+        ],
+        "responses":[
+            "Great! Are you taking any medication to ease your pain?",
+            "Would you like me to schedule an appointment with our doctor?",
+            "I will try my best to help you, would you like to consult our doctor?"
+        ]
+        },
+
+        {
+            "intent":"No_haven't",
+            "patterns":[
+                "No, I haven't tried any exercises yet.",
+                "No, I did not exercise.",
+                "No, I haven't exercised",
+                "No",
+                "No ",
+                "Kindly schedule an appointment",
+                "Yes, schedule an appointment with the doctor",
+                "Please schedule",
+                "Yes, book an appointment with the doctor",
+                "Yes, schedule the appoitment with the doctor available"  
+            ],
+            "responses":[
+                "No issues, would you like me to schedule an appointment with our doctor?",
+                "Alright, would you like to consult our doctor?"
+            ]
+        },
+        {
+        "intent":"cough",
+        "patterns":[
+            "I've been feeling really tired and achy lately, and I can't seem to shake this cough.",
+            "I've been coughing a lot and it's really starting to worry me. I'm also experiencing some chest pain.",
+            "I have a fever and my throat is really sore. I'm having trouble swallowing and my glands are swollen.",
+            "I've been having some shortness of breath and wheezing. My cough has been persistent for several days now.",
+            "I have a runny nose and a cough that won't go away. I'm also feeling really fatigued and achy.",
+            "I have a cough and it's really starting to interfere with my daily activities. I'm also experiencing some chest congestion.",
+            "I've been coughing up phlegm and my chest feels really tight. It's hard to take deep breaths and I feel short of breath.",
+            "I have a cough and a headache that won't go away. I'm also experiencing some body aches and fatigue.",
+            "I have a dry, hacking cough and it's really starting to irritate my throat. I'm also feeling really run down and tired.",
+            "I have a cough and a fever that won't go away. I'm also experiencing some chills and body aches.",
+            "I have a persistent cough and my throat is really sore. It's also hard to breathe deeply without coughing.",
+            "I have a cough and my chest hurts when I breathe. It's also hard to take deep breaths without coughing.",
+            "I have a cough that's been going on for several days now. It's also causing me to have trouble sleeping at night.",
+            "I have a cough and it's really starting to interfere with my daily activities. I'm also experiencing some shortness of breath.",
+            "I have a cough and my nose is really congested. It's also hard to breathe through my nose without coughing.",
+            "I have a cough and I'm experiencing some chest pain and tightness. It's also hard to take deep breaths without coughing.",
+            "I have a cough and my throat is really scratchy and sore. It's also hard to swallow without coughing.",
+            "I have a cough and I'm feeling really fatigued and run down. It's also hard to concentrate on anything.",
+            "I am having cough",
+            "I am having flu symptoms",
+            "I am having extreme cough and chest pain",
+            "I am having extreme cough",
+            "I am persistently coughing",
+            "My coughing won't stop",
+            "I am coughing a lot"
+        ],
+        "responses":[
+            "Coughing can be caused by a number of things, such as a cold, flu, or allergies. It's important to get plenty of rest and stay hydrated. Try using a humidifier to moisten the air and avoid irritants like smoke or pollution. You can also try some cough suppressants or over-the-counter remedies to help ease your symptoms. If your cough persists or worsens, please consider scheduling an appointment with a doctor for further evaluation.",
+            "A persistent cough can be a sign of a more serious condition, such as bronchitis or pneumonia. It's important to rest and stay hydrated, and to avoid irritants like smoke or pollution. You can also try some cough suppressants or over-the-counter remedies to help ease your symptoms. If your cough persists or worsens, please consider scheduling an appointment with a doctor for further evaluation.",
+            "Gargling with salt water or drinking warm liquids like tea with honey can also help soothe a sore throat and reduce coughing. You can also try breathing in steam from a hot shower or humidifier to help loosen mucus in your chest. If your symptoms persist or worsen, please consider scheduling an appointment with a doctor for further evaluation.",
+            "If you have a productive cough, it's important to stay hydrated and consider using an expectorant to help clear mucus from your lungs. You can also try some cough suppressants or over-the-counter remedies to ease your symptoms.",
+            "Coughing can be caused by a variety of factors, such as a viral infection or allergies. It's important to stay hydrated, avoid irritants, and consider using a cough suppressant to ease your symptoms."
+        ]
+    },
+    {
+        "intent":"nausea",
+        "patterns":[
+            "I've been feeling really nauseous all day. I can't seem to keep anything down.",
+            "Every time I eat, I feel nauseous and sometimes even vomit. What could be causing this?",
+            "I woke up this morning feeling really sick to my stomach. I've been feeling nauseous all day.",
+            "I'm feeling really dizzy and nauseous. What should I do?",
+            "I feel like I'm going to throw up. I have this constant feeling of nausea.",
+            "I've been feeling nauseous on and off for a few days now. What could be causing this?",
+            "I ate something earlier and now I'm feeling really nauseous. What should I do?",
+            "I'm feeling really sick to my stomach and I don't know why. I've been feeling nauseous all day.",
+            "I've been experiencing nausea and stomach pain for the past few hours. What could be causing this?",
+            "I feel like I'm going to be sick. I've been experiencing nausea for a while now.",
+            "I am experiencing nausea",
+            "I feel like vomiting",
+            "I have been vomiting all day"
+        ],
+        "responses":[
+            "Nausea can be caused by a variety of things, such as a stomach virus or food poisoning. It's important to stay hydrated and rest as much as possible. Try eating small, bland meals and avoid foods that may upset your stomach. If your symptoms persist or worsen, please consider scheduling an appointment with a doctor for further evaluation.",
+            "It's possible that you have a stomach bug or food poisoning. It's important to stay hydrated and rest as much as possible. Try eating small, bland meals and avoid foods that may upset your stomach. If your symptoms persist or worsen, please consider scheduling an appointment with a doctor for further evaluation.",
+            "Nausea can be a symptom of many different things, including a stomach bug, food poisoning, or even anxiety. It's important to stay hydrated and rest as much as possible. Try eating small, bland meals and avoid foods that may upset your stomach. If your symptoms persist or worsen, please consider scheduling an appointment with a doctor for further evaluation.",
+            "It's possible that you have vertigo, which can cause dizziness and nausea. It's important to stay hydrated and rest as much as possible. If your symptoms persist or worsen, please consider scheduling an appointment with a doctor for further evaluation.",
+            "Nausea can be caused by a variety of things, such as a stomach virus or food poisoning. It's important to stay hydrated and rest as much as possible. Try eating small, bland meals and avoid foods that may upset your stomach. If your symptoms persist or worsen, please consider scheduling an appointment with a doctor for further evaluation."
+        ]
+    },
+    {
+        "intent":"Goodbye",
+        "patterns":[
+            "Thank you",
+            "Thanks for helping",
+            "Bye",
+            "Goodbye",
+            "Alright, thanks!"
+        ],
+        "responses":[
+            "Thank you for using MedMitra. We hope we were able to assist you. Take care and feel better soon!",
+            "If you have any more health-related questions or concerns, don't hesitate to reach out to us. Stay healthy!",
+            "Remember to prioritize your health and wellness. If you have any further questions, don't hesitate to ask. Goodbye!",
+            "We're glad we could help. If you have any more concerns, don't hesitate to reach out to us. Take care!",
+            "Thank you for choosing MedMitra. If you have any feedback, please let us know. Goodbye!"
+        ]
+    },
+    {
+        "intent":"Schedule",
+        "patterns":[
+            "Yes, I would like to schedule an appointment with the doctor",
+            "Yes, please schedule",
+            "Yes, kindly schedule",
+            "Yes Schedule",
+            "Yes schedule appointment with the doctor"
+        ],
+        "responses":[
+            "Alright scheduling! You will recieve a message shortly regarding your appointment details.",
+            "Your appointment will be scheduled shortly. Kindly check messages from our end regarding appointment details."
+        ]
+        
+    }
+    ]
+}
+
+
